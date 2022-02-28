@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+H:/Documents/coursework/vga_output/vga_output.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+H:/Documents/coursework/vga_output/vga_output.srcs/sim_1/new/vga_sim.v,1635776802,verilog,,,,vga_sim,,,../../../../vga_output.srcs/sources_1/ip/clk_wiz_0,,,,,
+H:/Documents/coursework/vga_output/vga_output.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1635776258,verilog,,H:/Documents/coursework/vga_output/vga_output.srcs/sources_1/new/vga_out.v,,clk_wiz_0,,,../../../../vga_output.srcs/sources_1/ip/clk_wiz_0,,,,,
+H:/Documents/coursework/vga_output/vga_output.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1635776258,verilog,,H:/Documents/coursework/vga_output/vga_output.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../vga_output.srcs/sources_1/ip/clk_wiz_0,,,,,
+H:/Documents/coursework/vga_output/vga_output.srcs/sources_1/new/vga_out.v,1638448897,verilog,,H:/Documents/coursework/vga_output/vga_output.srcs/sources_1/new/vga_timing.v,,vga_out,,,../../../../vga_output.srcs/sources_1/ip/clk_wiz_0,,,,,
+H:/Documents/coursework/vga_output/vga_output.srcs/sources_1/new/vga_timing.v,1638449191,verilog,,H:/Documents/coursework/vga_output/vga_output.srcs/sim_1/new/vga_sim.v,,vga_timing,,,../../../../vga_output.srcs/sources_1/ip/clk_wiz_0,,,,,

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1440"
+   height="100"
+   viewBox="0 0 381.00001 26.458333"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="C:\Users\Adam\videogame.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="bannerbig.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.65512531"
+     inkscape:cx="942.56777"
+     inkscape:cy="125.93011"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5349">
+      <stop
+         style="stop-color:#800080;stop-opacity:1"
+         offset="0"
+         id="stop5345" />
+      <stop
+         style="stop-color:#3500cb;stop-opacity:1"
+         offset="1"
+         id="stop5347" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5349"
+       id="linearGradient5351"
+       x1="185.37485"
+       y1="-12.51987"
+       x2="264.70999"
+       y2="14.747966"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient5351);stroke-width:4.36499;stroke-linejoin:round;fill-opacity:1"
+       id="rect5233"
+       width="380.93469"
+       height="26.478514"
+       x="0.1009667"
+       y="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Upheaval TT (BRK)';-inkscape-font-specification:'Upheaval TT (BRK)';stroke-width:0.264583;fill:#f9f9f9"
+       x="5.1403847"
+       y="10.566667"
+       id="text1045"><tspan
+         sodipodi:role="line"
+         id="tspan1043"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Upheaval TT (BRK)';-inkscape-font-specification:'Upheaval TT (BRK)';stroke-width:0.264583;fill:#f9f9f9"
+         x="5.1403847"
+         y="10.566667">YOUR favourite videogame</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Upheaval TT (BRK)';-inkscape-font-specification:'Upheaval TT (BRK)';stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="6.6638017"
+       y="21.001072"
+       id="text10750"><tspan
+         sodipodi:role="line"
+         id="tspan10748"
+         style="stroke-width:0.264583;-inkscape-font-specification:'Upheaval TT (BRK)';font-family:'Upheaval TT (BRK)';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="6.6638017"
+         y="21.001072" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Upheaval TT (BRK)';-inkscape-font-specification:'Upheaval TT (BRK)';fill:#f6d5ff;stroke-width:0.264583"
+       x="4.8464012"
+       y="21.40494"
+       id="text13010"><tspan
+         sodipodi:role="line"
+         id="tspan13008"
+         style="fill:#f6d5ff;stroke-width:0.264583"
+         x="4.8464012"
+         y="21.40494">2064363 2021758</tspan></text>
+    <rect
+       style="fill:#f6ffff;fill-opacity:1;stroke:none;stroke-width:4.36499;stroke-linejoin:round;stroke-opacity:0"
+       id="rect13599"
+       width="66.145836"
+       height="13.229167"
+       x="295"
+       y="10" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.525px;line-height:1.25;font-family:'Upheaval TT (BRK)';-inkscape-font-specification:'Upheaval TT (BRK)';fill:#d7d7f4;stroke-width:0.264583"
+       x="295"
+       y="7.4715352"
+       id="text14807"><tspan
+         sodipodi:role="line"
+         id="tspan14805"
+         style="font-size:9.525px;fill:#d7d7f4;stroke-width:0.264583"
+         x="295"
+         y="7.4715352">TIME</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.05px;line-height:1.25;font-family:'Rockwell Extra Bold';-inkscape-font-specification:'Rockwell Extra Bold, ';fill:#ffcc00;stroke-width:0.264583"
+       x="206.42456"
+       y="20.973106"
+       id="text16911"><tspan
+         sodipodi:role="line"
+         id="tspan16909"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.05px;font-family:'Rockwell Extra Bold';-inkscape-font-specification:'Rockwell Extra Bold, ';fill:#ffcc00;stroke-width:0.264583"
+         x="206.42456"
+         y="20.973106">SIEGE</tspan></text>
+  </g>
+</svg>

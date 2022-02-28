@@ -1,0 +1,107 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Dec 10 10:53:36 2021
+| Host         : F211-32 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file vga_out_control_sets_placed.rpt
+| Design       : vga_out
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    29 |
+|    Minimum number of control sets                        |    29 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    81 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    29 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     3 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     4 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             123 |           70 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               5 |            3 |
+| Yes          | No                    | No                     |              47 |           29 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             248 |           77 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+----------------------------------+----------------------------------+------------------+----------------+
+|  Clock Signal  |           Enable Signal          |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
++----------------+----------------------------------+----------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG | last_btnc_i_1_n_0                |                                  |                1 |              1 |
+|  clk_IBUF_BUFG | last_btnr_i_1_n_0                |                                  |                1 |              1 |
+|  clk_IBUF_BUFG | vga_timer/cannonball_yvel_reg[5] | vga_timer/game_state_reg[1]_5    |                2 |              4 |
+|  clk_IBUF_BUFG |                                  | vga_timer/hcount_reg[10]_i_1_n_0 |                3 |              5 |
+|  clk_IBUF_BUFG | vga_timer/RST[0]                 |                                  |                2 |              5 |
+|  clk_IBUF_BUFG | vga_timer/game_state_reg[1]_1    |                                  |                2 |              5 |
+|  clk_IBUF_BUFG | vga_timer/game_state_reg[1]_0[0] | vga_timer/SR[0]                  |                3 |              6 |
+|  clk_IBUF_BUFG | vga_timer/cannonball_yvel_reg[5] |                                  |                2 |              6 |
+|  clk_IBUF_BUFG | vga_timer/game_state_reg[1]_1    | vga_timer/game_state_reg[0]_2[0] |                1 |              6 |
+|  clk_IBUF_BUFG | vga_timer/game_state_reg[1]_2[0] |                                  |                5 |              7 |
+|  clk_IBUF_BUFG | vga_timer/game_state_reg[0]_6    | vga_timer/game_state_reg[1]_4    |                2 |              8 |
+|  clk_IBUF_BUFG | vga_timer/vcount_reg[9]_i_1_n_0  |                                  |                6 |             10 |
+|  clk_IBUF_BUFG | vga_timer/game_state_reg[0]_0    | vga_timer/game_state_reg[0]_3    |                3 |             10 |
+|  clk_IBUF_BUFG | vga_timer/in_cannonball_region   | vga_timer/banner_px_count0       |                3 |             11 |
+|  clk_IBUF_BUFG | vga_timer/E[0]                   |                                  |               10 |             12 |
+|  clk_IBUF_BUFG | vga_timer/in_timer_region        | vga_timer/banner_px_count0       |                4 |             13 |
+|  clk_IBUF_BUFG | vga_timer/in_pwr_region          | vga_timer/banner_px_count0       |                4 |             14 |
+|  clk_IBUF_BUFG | vga_timer/in_timerframe_region   | vga_timer/banner_px_count0       |                4 |             14 |
+|  clk_IBUF_BUFG | vga_timer/in_target_region       | vga_timer/banner_px_count0       |                4 |             15 |
+|  clk_IBUF_BUFG | vga_timer/in_target2_region      | vga_timer/banner_px_count0       |                4 |             15 |
+|  clk_IBUF_BUFG | vga_timer/game_state_reg[0]_5    | vga_timer/game_state_reg[0]_1    |               11 |             16 |
+|  clk_IBUF_BUFG | vga_timer/in_cannon_region       | vga_timer/banner_px_count0       |                4 |             16 |
+|  clk_IBUF_BUFG | vga_timer/in_end_region          | vga_timer/banner_px_count0       |                4 |             16 |
+|  clk_IBUF_BUFG | vga_timer/in_start_region        | vga_timer/banner_px_count0       |                4 |             16 |
+|  clk_IBUF_BUFG | vga_timer/in_wall_region         | vga_timer/banner_px_count0       |                5 |             18 |
+|  clk_IBUF_BUFG | vga_timer/in_banner_region       | vga_timer/banner_px_count0       |                5 |             18 |
+|  seg/led_clk   |                                  |                                  |                9 |             19 |
+|  clk_IBUF_BUFG | vga_timer/game_state_reg[0]_4    | vga_timer/game_state_reg[1]_3    |               10 |             32 |
+|  clk_IBUF_BUFG |                                  |                                  |               61 |            104 |
++----------------+----------------------------------+----------------------------------+------------------+----------------+
+
+

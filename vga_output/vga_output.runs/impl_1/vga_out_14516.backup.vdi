@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Dec 10 10:51:30 2021
+# Process ID: 14516
+# Current directory: C:/Users/u2012758/OneDrive - University of Warwick/Work/es2e3/coursework/vga_output/vga_output.runs/impl_1
+# Command line: vivado.exe -log vga_out.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source vga_out.tcl -notrace
+# Log file: C:/Users/u2012758/OneDrive - University of Warwick/Work/es2e3/coursework/vga_output/vga_output.runs/impl_1/vga_out.vdi
+# Journal file: C:/Users/u2012758/OneDrive - University of Warwick/Work/es2e3/coursework/vga_output/vga_output.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source vga_out.tcl -notrace
+Command: link_design -top vga_out -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+1 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+link_design failed
+ERROR: [Common 17-70] Application Exception: DcpReader - Could not open file 'vga_out.xn' for reading in dcp: C:/Users/u2012758/OneDrive - University of Warwick/Work/es2e3/coursework/vga_output/vga_output.runs/synth_1/vga_out.dcp
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 10 10:51:47 2021...

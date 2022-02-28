@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="charis_rom_synth_1" LaunchDir="H:/Documents/es2e3/coursework/vga_output/vga_output.runs/charis_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cannonball_rom_synth_1" LaunchDir="H:/Documents/es2e3/coursework/vga_output/vga_output.runs/cannonball_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pwr_rom_synth_1" LaunchDir="H:/Documents/es2e3/coursework/vga_output/vga_output.runs/pwr_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="H:/Documents/es2e3/coursework/vga_output/vga_output.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="charis_rom_synth_1"/>
+		<Parent Id="cannonball_rom_synth_1"/>
+		<Parent Id="pwr_rom_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="H:/Documents/es2e3/coursework/vga_output/vga_output.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_1"/>
+		<Parent Id="charis_rom_synth_1"/>
+		<Parent Id="cannonball_rom_synth_1"/>
+		<Parent Id="pwr_rom_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
